@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="mor175/android_device_lge_h870" path="device/lge/h870" remote="github" revision="v1-t" />
+  <project name="mor175/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="v1-t" />
   <project name="mor175/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="v1-t" />
   <project name="mor175/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="v1-t" />
   <project name="mor175/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="v1-t" />
-  <project name="mor175/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="v1-t" />
+  <project name="LineageOS/android_hardware_lge" path="hardware/lge" remote="github" revision="lineage-20" />
   <project name="mor175/Eva_GCC_AArch64" path="prebuilts/gcc/linux-x86/aarch64/gcc-10.3-aarch64" remote="github" revision="gcc-master" />
   <project name="mor175/Eva_GCC-Arm" path="prebuilts/gcc/linux-x86/arm/gcc-10.3-arm" remote="github" revision="gcc-master" />
   <project name="mor175/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="v1-t" />
