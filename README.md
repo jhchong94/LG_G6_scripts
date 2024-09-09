@@ -1,21 +1,21 @@
-# /e/OS (https://e.foundation/)
+# LineageOS 21.0
 
-### This scripts are derived from https://github.com/LG-G6 and many others things like kernel come from this repositories, so many thanks to Bernardo Bas.
+### This scripts are derived from https://github.com/mor175/scripts, so many thanks to mor175 and others.
 
-This scripts are only for LG G6 H870 variant (EU) to build /e/OS on Linux.
+This scripts are only for LG G6 H870DS variant to build LOS 21.0 on Linux.
 
 **Tested on Ubuntu 22.04 LTS**
 
 To initialize your local repository, use this ninja command:
 
 ```Shell
-mkdir eOSt && cd eOSt && git clone https://github.com/mor175/scripts.git -b v1-t && repo init -u https://gitlab.e.foundation/e/os/android.git -b v1-t --depth=1 && export USE_CCACHE=1 && export CCACHE_EXEC=/usr/bin/ccache && ccache -M 50G && mkdir .repo/local_manifests && cp scripts/roomservice-h870.xml .repo/local_manifests/ && mv .repo/local_manifests/roomservice-h870.xml .repo/local_manifests/roomservice.xml
+mkdir ~/android && mkdir ~/android/lineage && cd ~/android/lineage && git clone https://github.com/jhchong94/LG_G6_scripts.git && repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs && export USE_CCACHE=1 && export CCACHE_EXEC=/usr/bin/ccache && ccache -M 50G && mkdir .repo/local_manifests && cp LG_G6_scripts/roomservice-h870ds.xml .repo/local_manifests/ && mv .repo/local_manifests/roomservice-h870ds.xml .repo/local_manifests/roomservice.xml
 ```
 
 To build /e/OS:
 
 ```Shell
-source scripts/build-h870.sh
+source scripts/build-h870ds.sh
 ```
 
 **Ubuntu 22.04 LTS - Special Notes :**
