@@ -6,11 +6,7 @@ This scripts are only for LG G6 H870DS variant to build LOS 21.0 on Linux.
 
 **Tested on Ubuntu 22.04 LTS**
 
-To setup your environment, use this guide:
-
-```Shell
-https://github.com/shantanu-sarkar/CustomROM
-```
+To setup your environment, use this guide: https://github.com/shantanu-sarkar/CustomROM
 
 To initialize your local repository, use this ninja command:
 
