@@ -6,7 +6,7 @@ This scripts are only for LG G6 H870DS variant to build LOS 21.0 on Linux.
 
 **Tested on Ubuntu 22.04 LTS**
 
-To setup your environment, use this guide: https://github.com/shantanu-sarkar/CustomROM
+To setup your environment, use these guides: https://github.com/shantanu-sarkar/CustomROM and https://wiki.lineageos.org/devices/h870/build/.
 
 To initialize your local repository, use this ninja command:
 
@@ -17,7 +17,7 @@ mkdir -p ~/bin && mkdir -p ~/android/lineage && curl https://storage.googleapis.
 To build LOS 21.0:
 
 ```Shell
-source scripts/build-h870ds.sh
+source LG_G6_scripts/build-h870ds.sh
 ```
 
 **Ubuntu 22.04 LTS - Special Notes :**
