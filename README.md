@@ -1,6 +1,6 @@
 # LineageOS 21.0
 
-### This scripts are derived from https://github.com/mor175/scripts, so many thanks to mor175 and others.
+### This scripts are derived from https://github.com/mor175/scripts and https://github.com/LG-G6/scripts, so many thanks to Bernardo Bas, mor175 and others.
 
 This scripts are only for LG G6 H870DS variant to build LOS 21.0 on Linux.
 
