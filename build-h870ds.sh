@@ -5,6 +5,8 @@ source build/envsetup.sh
 
 source LG_G6_scripts/fixes.sh
 
+source scripts/extras.sh
+
 make clean
 
 brunch h870ds
