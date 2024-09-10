@@ -19,26 +19,3 @@ To build LOS 21.0:
 ```Shell
 source LG_G6_scripts/build-h870ds.sh
 ```
-
-**Ubuntu 22.04 LTS - Special Notes :**
-
-Instead of download and install "platform-tools-latest-linux.zip", you could do this :
-```Shell
-sudo apt-get install adb fastboot
-```
-
-You may need also add this packages : cpu-checker python-is-python3 zram-config git-lfs
-
-JAVA : v1-t is equivalent to LineageOS 20, so it's not necessary to install OpenJDK 11 (included in source download)
-
-To fix "Can't locate Getopt/Std.pm in @INC", execute this :
-```Shell
-sudo perl -e shell -MCPAN
-cpan>install CPAN
-cpan>reload cpan
-cpan>install Getopt::Std
-cpan>exit
-```
-ln -s /usr/share/perl/5.34.0/ /usr/share/perl/5.26
-
-ln -s /usr/share/perl/5.34.0/ /usr/share/perl/5.26.1
