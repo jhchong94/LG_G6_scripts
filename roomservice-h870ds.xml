@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="jhchong94/android_device_lge_h870ds" path="device/lge/h870ds" remote="github" revision="lineage-21" />
-  <project name="jhchong94/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="lineage-19.1" />
-  <project name="jhchong94/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="lineage-19.1" />
+  <project name="jhchong94/android_device_lge_g6-common_los" path="device/lge/g6-common" remote="github" revision="lineage-21" />
+  <project name="jhchong94/android_device_lge_msm8996-common_los" path="device/lge/msm8996-common" remote="github" revision="lineage-21" />
   <project name="jhchong94/msm8996_lge_kernel" path="kernel/lge/msm8996" remote="github" revision="Swan2000-lineage-21" />
   <project name="LineageOS/android_hardware_lge" path="hardware/lge" remote="github" revision="lineage-21" />
   <project name="jhchong94/proprietary_vendor_lge_h870ds" path="vendor/lge/h870ds" remote="github" revision="lineage-21" />
